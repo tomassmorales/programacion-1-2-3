@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+   <%- include(`./partials/header`) %>
+   <section>
+
+    <h1><%= titulo %></h1>
+
+   <% for(let i = 0; i < productos.length; i++){ %>
+	<div>
+	<h2>Auto <%= productos[i].marca %></h3>
+	<h3>Especificaciones:</h2>
+	<ul>
+	<li>modelo: <%=productos[i].modelo%></li>
+	<li>Año: <%=productos[i].anio%></li>
+	<li>Color: <%=productos[i].color%></li>
+	</ul>
+        </div>
+	   <%}%>
+   </section>
+
+    <%- include(`./partials/footer`) %>
+  </body>
+</html>

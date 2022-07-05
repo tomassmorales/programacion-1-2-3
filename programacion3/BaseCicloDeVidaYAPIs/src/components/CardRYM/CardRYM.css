@@ -1,0 +1,13 @@
+.card{
+	width: 24%;
+	margin-bottom: 10px;
+}
+
+.card ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "npm-practica",
+  "version": "1.0.0",
+  "description": "Para practica Programación II",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tomás Morales",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "popular-movie-quotes": "^1.2.4"
+  }
+}
